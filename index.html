@@ -32,6 +32,20 @@
     </div>
   </nav>
   
+  <!-- Hamburger icon (only shows on mobile) -->
+<div class="hamburger" onclick="toggleMenu()">
+    &#9776;
+  </div>
+  
+  <!-- Mobile Menu (hidden by default) -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
 
   <!-- Hero Section -->
   <section class="hero" id="hero">
@@ -148,7 +162,7 @@
   </footer>
   <script>
     var typed = new Typed(".typing", {
-      strings: ["UI/UX Designer", "Web Development", "Software Development", "Data Analyst ","Fountend Develpment",],
+      strings: ["UI/UX Designer", "Web Development", "Software Development", "Data Analyst ","Frontend Develpment",],
       typeSpeed: 80,
       backSpeed: 40,
       loop: true
